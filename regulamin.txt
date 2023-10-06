@@ -1,0 +1,30 @@
+REGULAMIN STRONY INTERNETOWEJ Z OFERTAMI PRACY
+
+1. Wprowadzenie
+
+1.1. Niniejszy regulamin określa zasady korzystania z serwisu internetowego http://localhost:3000/demo/index.php (zwany dalej "Aplikacją webową") z ofertami pracy.
+
+1.2. Strona jest prowadzona przez Igor Ślusarski (zwany dalej "Administrator").
+
+2. Warunki Ogólne
+
+2.1. Korzystanie z Strony oznacza akceptację niniejszego regulaminu w całości.
+
+2.2. Administrator zastrzega sobie prawo do zmiany regulaminu w dowolnym czasie. Użytkownicy zostaną poinformowani o wszelkich zmianach za pomocą odpowiednich ogłoszeń na Stronie.
+
+2.3. Użytkownik jest zobowiązany do przestrzegania wszelkich obowiązujących przepisów prawa, a także niniejszego regulaminu.
+
+3. Rejestracja
+
+3.1. Dostęp do niektórych funkcji Strony może wymagać rejestracji. Użytkownik jest odpowiedzialny za zachowanie poufności swojego loginu i hasła.
+
+3.2. Użytkownik zobowiązuje się do podawania prawdziwych i aktualnych informacji podczas rejestracji.
+
+4. Oferty Pracy
+
+4.1. Strona zawiera oferty pracy dostarczane przez różnych pracodawców. Administrator nie ponosi odpowiedzialności za treść ofert, ich aktualność ani za działania pracodawców.
+
+4.2. Użytkownik zobowiązuje się do korzystania z ofert pracy w sposób zgodny z obowiązującymi przepisami prawa.
+
+
+Regulamin ochrony danych - Administrator danych w celu zapewnienia przestrzegania w jednostce zasad ochrony danych osobowych może wprowadzić regulamin ochrony danych osobowych. Taki regulamin stanowi wykaz podstawowych obowiązków z zakresu przestrzegania zasad ochrony danych osobowych zgodnie z przepisami RODO, dla pracowników, współpracowników, pracowników podmiotów trzecich, posiadających dostęp do danych osobowych, a także użytkowników systemów informatycznych z dostępem do danych osobowych przetwarzanych przez administratora.
