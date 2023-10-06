@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root { 
+    --thirdColor: #0076de;
+}
+.title {
+    margin-top: 2rem;
+}
+.main-form-container {
+    width: 100%;
+    height: 100%;
+    column-gap: 5%;
+    row-gap: 1rem;
+    padding: 1.8rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+.main-form-container::after {
+    filter: blur(5px);
+}
+.main-form-container > button {
+    padding: 0.5rem 2rem;
+    grid-column: 1/3;
+}
+hr {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+.main-form-container > hr {
+    grid-column: 1/3;
+}
+.main-form-container > input {
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.main-form-container > label {
+    margin: 0.7rem 0;
+}
+.user-image-upload {
+    display: flex;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-container .user-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.2rem;
+    height: 10.2rem;
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+}
+.form-container .user-image-container > img {
+    width: 10rem;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+.form-item > input,
+.form-item > select,
+.form-item > textarea {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-color: var(--primaryColor);
+}
+input[type=checkbox] {
+    display: block;
+    margin-right: 95%;
+    margin-bottom: 0%;
+}
+.form-item > label {
+    margin: 0.7rem 0;
+}
+.sideByside {
+    display: flex;
+    justify-content: space-between;
+}
+.sideByside > div:first-child {
+    width: 60%;
+}
+.sideByside > div:nth-child(2) {
+    width: 30%;
+}
+.resume-container {
+    align-items: center;
+    border-radius: 10px;
+    border: 1px dotted #fff;
+}
+
+.description > h4,
+
+.description > p {
+    margin: 0.8rem 0;
+}
+
+:root { 
+    --primaryColor: #0076de;
+    --whiteColor: #fff;
+    --blackColor: #333;
+    --greyColor: #f6f8fa;
+    --labelColor: #64b1f5;
+    --yellowColor: #ffd723;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    color: var(--primaryColor);
+    background-image: url("../img/pexels-vojtech-okenka-392018.jpg");
+    background-size: cover;
+}
+
+h1 {
+    line-height: 1.5;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.form-item1 > textarea {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-color: var(--primaryColor);
+}
+.form-item1 > label {
+    margin: 0.7rem 0;
+    border-color: var(--primaryColor);
+}
+
+.form-item1 .skills {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+}
+.skills i {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.form-item1 input {
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+    background: var(--primaryColor);
+}
+
+nav {
+    background-color: var(--primaryColor);
+    color: #fff;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .navbar-brand {
+    justify-content: space-around;
+    height: 15px;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand > a {
+    color: var(--whiteColor);
+    text-decoration: none;
+  }
+  
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  .navbar-menu {
+    width: 2000px;
+    display:flex;
+    justify-content: space-around;
+}
+  
+  .navbar-menu li {
+    margin-left: 10px;
+  }
+  
+  .navbar-menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-dropdown:hover .navbar-dropdown-menu {
+    display: block;
+  }
+  
+  .navbar-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .navbar-dropdown-menu li {
+    margin: 0;
+  }
+  
+  .navbar-dropdown-menu a {
+    color: var(--primaryColor);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .navbar-dropdown-menu a:hover {
+    background-color: var(--primaryColor);
+  }
+  a {
+    color: white;
+}
